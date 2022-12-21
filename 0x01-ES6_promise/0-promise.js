@@ -1,3 +1,3 @@
 export default function getResponseFromAPI() {
-	return ne promise((resolve, reject) => [resolve, rejcet]);
+  return new Promise((resolve, reject) => [resolve, reject]);
 }
